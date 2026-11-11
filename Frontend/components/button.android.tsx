@@ -10,7 +10,7 @@ export function Button( {label, icon, ...rest}: CustomButtonProps) {
     return (
         <TouchableOpacity style={style.button} {...rest} activeOpacity={0.7}>
             {icon}
-            <text style={style.label}>{label}</text>
+            <Text style={style.label}>{label}</Text>
         </TouchableOpacity>
     );
 }
