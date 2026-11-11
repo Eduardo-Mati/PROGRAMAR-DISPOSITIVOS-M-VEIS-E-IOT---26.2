@@ -62,10 +62,6 @@ export default function Index() {
             <Text style={styles.footer}>Não tem conta? {" "}
               <Link style={styles.footerLink} href="/register">cadastre-se</Link>
             </Text>
-
-            <Link href="/terms" style={styles.termsLink}>
-              Consulte nossos termos de serviço
-            </Link>
         </View>
       </ScrollView>
     </KeyboardAvoidingView>
